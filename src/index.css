@@ -1,0 +1,197 @@
+/*General */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body { 
+  margin-top: 10px; 
+  font-family: 'Open Sans', sans-serif;
+  background-color:  #F2F2F2 ;
+  color: #34495E;
+}
+/*Images */
+img {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1) ;
+}
+.image1 {
+  margin-top: 30px;
+}
+.image2{
+  width: 100%;
+  height: 150%;
+}
+.image3 {
+  width: 100%;
+  height: 155%;
+}
+.image4 {
+  width: 100%;
+  height: 100%;
+}
+.image6 {
+  height: 75%;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Hero Section */
+.hero {
+  margin-top: 80px;
+}  
+.hero-h3 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+/*A propos */
+.about-us {
+  margin-top: 70px;
+}
+
+.about {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  
+
+}
+/*Trait */
+.trait-separation {
+    width: 200px;
+    height: 2px;
+    border-bottom: 1px solid #B2B5B9;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+/*H1*/
+h1 {
+  color:  #1C2331  ;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+/* Styles pour les titres h2 */
+h2 {
+  color: #1C2331; /* Bleu foncé */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Styles pour les titres h3 */
+h3 {
+  color: #34495E; /* Bleu gris */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+/*Styles pour h1, h2, h3*/
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Home section1 */
+.presentation1 {
+  background: #D5D8DC;
+  color: #000;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+/* Services */
+.services {
+  margin-top: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+  padding-bottom: 30px;
+  
+}
+
+.page-services {
+  margin-top: 70px;
+}
+
+.services h2 {
+  margin-bottom: 30px;
+}
+
+/* Creation */
+.creation {
+  margin-top: 30px;
+  background-color: white;
+  padding: 30px 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.creation div {
+  margin-top: 30px;
+}
+
+.creation img {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.galerie img {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les écrans jusqu'à 768 pixels de largeur */
+@media only screen and (max-width: 768px) {
+  /* Vos styles ici */
+
+
+
+}
+
+/* Navigation.css */
+
+/* Pour aligner le logo et le bouton du menu sur la même ligne sur les petits écrans */
+@media only screen and (max-width: 767px) {
+  .navbar-brand,
+  .navbar-toggler {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    margin-top: 10px; /* Ajustez la marge selon vos besoins */
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-top: 10px; /* Ajustez la marge selon vos besoins */
+  }
+}
+
+/* Logo plus petit sur les petits écrans */
+.smaller-logo {
+  max-width: 100px; /* Ajustez la taille maximale selon vos besoins */
+}
+
+/* Ajoutez des styles responsives pour ajuster la taille du logo selon la taille de l'écran */
+@media only screen and (max-width: 767px) {
+  .smaller-logo {
+    max-width: 80px; /* Ajustez la taille maximale selon vos besoins */
+  }
+  .smaller-image {
+    max-width: 80%; /* Ajustez la taille maximale selon vos besoins */
+  }
+}
+
+/* Ajoutez des styles responsives pour ajuster la disposition des colonnes en fonction de la taille de l'écran */
+@media only screen and (max-width: 992px) {
+  .presentation1, .col-lg-6 {
+    width: 100%;
+  }
+}
+
+/* Ajoutez une classe pour ajuster la taille de l'image sur les petits écrans */
+.smaller-image {
+  max-width: 100%; /* La largeur maximale est de 100% de la largeur du conteneur parent */
+  height: auto; /* La hauteur s'ajuste automatiquement pour maintenir le rapport hauteur-largeur */
+}
